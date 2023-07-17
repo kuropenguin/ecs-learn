@@ -1,4 +1,4 @@
-module github.com/kurokupenguin/ecs-learn/app
+module github.com/kurokupenguin/ecs-learn
 
 go 1.19
 
