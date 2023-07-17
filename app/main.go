@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/kurokupenguin/ecs-learn/handler"
+	"github.com/kurokupenguin/ecs-learn/app/handler"
 )
 
 func main() {
