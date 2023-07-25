@@ -1,6 +1,6 @@
 # docker build . -t go-hello-image
 # docker run --name go-hello -p 8080:8080 go-hello-image
-FROM golang:1.19.5
+FROM --platform=linux/amd64  golang:1.19.5
 
 RUN apt update -y && apt upgrade -y
 
