@@ -23,7 +23,7 @@ jobs:
 
 
     - name: Module
-      run: go module download
+      run: go mod download
       working-directory: ./app
 
     - name: Build
